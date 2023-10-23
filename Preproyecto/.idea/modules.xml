@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arbol Binario/Arbol Binario.iml" filepath="$PROJECT_DIR$/Arbol Binario/Arbol Binario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejemplo AST/Ejemplo AST.iml" filepath="$PROJECT_DIR$/Ejemplo AST/Ejemplo AST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preproyecto.iml" filepath="$PROJECT_DIR$/Preproyecto.iml" />
+    </modules>
+  </component>
+</project>

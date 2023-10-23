@@ -4,10 +4,11 @@
 public class Simbolo {
 
    private Etiqueta flag;  // clasificacion del simbolo	
-   private String nombre;  // nombre del simbolo 
+   private String nombre;  // nombre del simbolo
    private Etiqueta tipo;  // tipo del simbolo (int o boolean)
    private int valor;     //  valor asociado al simbolo (para int es un numero; para bool es true=0 y false=1
 
+    private int nrolinea;
 // constructores
     public Simbolo(Etiqueta flag) {
         this.flag = flag;
@@ -21,6 +22,7 @@ public class Simbolo {
         this.nombre = nombre;
         this.tipo = tipo;
         this.valor = valor;
+        this.nrolinea = nrolinea;
     }
 
     public Etiqueta getEtiqueta() {
@@ -50,9 +52,17 @@ public class Simbolo {
     public void setValor(int valor) {
         this.valor = valor;
     }
+
+    public int getNroLinea() {
+        return nrolinea;
+    }
+
+    public void setNrolinea(int nrolinea) {
+        this.nrolinea = nrolinea;
+    }
     
     public String toString(){
-	    return "("+this.getEtiqueta()+" , "+this.getNombre()+" , "+this.getTipo()+" , "+this.getValor()+")\n";
+	    return "("+this.getEtiqueta()+" , "+this.getNombre()+" , "+this.getTipo()+" , "+this.getValor()+" , "+this.getNroLinea()+")\n";
 	}     
     
 }

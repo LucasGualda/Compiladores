@@ -27,11 +27,12 @@ public class TablaSimbolo {
 
      }
      
-     public void insertar (Simbolo s){
-         if (this.buscar(s.getNombre())==null){
-             tablaSimbolo.add(s);
-         }else System.out.println("simbolo existente");
-         
+     public Simbolo insertar (Simbolo s){
+        if(this.buscar(s.getNombre())==null){
+            tablaSimbolo.add(s);
+            return s;
+     } else
+         return null;
      }
      
      public String toString(){

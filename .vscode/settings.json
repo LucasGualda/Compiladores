@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\lucas\\Downloads\\java_cup.jar",
+        "c:\\Users\\lucas\\Downloads\\JFlex.jar",
+        "c:\\Users\\lucas\\Downloads\\java-cup-11a.jar"
+    ]
+}

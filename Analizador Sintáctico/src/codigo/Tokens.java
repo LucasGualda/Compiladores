@@ -39,5 +39,5 @@ public enum Tokens {
     P_coma,
     Identificador,
     Numero,
-    ERROR
+    ERROR, Reservadas
 }
