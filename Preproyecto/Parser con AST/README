@@ -1,0 +1,25 @@
+A small JFlex+Cup parser example builder the AST
+
+To compile:
+>jflex lcalc.flex
+>java java_cup.Main < ycalc.cup
+>javac Main.java
+
+To run:
+>java Main test.txt
+
+
+Files:
+
+Main.java       demo of a main program
+README          this file
+lcalc.flex      the lexer spec
+ycalc.cup       the parser spec
+test.txt        sample input for testing
+
+estructuras     package with Arbol Sintáctico and Tabla de Símbolos
+Arbol.java      the AST implementation 
+TablaSimbolos   the TS implementation 
+Simbolo         the symbol information to AST and TS 
+Etiqueta        enum to nodo class
+Tipos           enum to type class  
